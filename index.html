@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700;800&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="public/css/index.css">
+    <title>Daily Record</title>
+</head>
+<body>
+    <div class="main__wrapper">
+        <header>
+            <div class="main-header row">
+                <div class="logo__bar row">
+                    <button class="ham" id="ham">
+                        <img id="ham__img" src="public/images/ham_menu.svg" alt="hamburger menu">
+                    </button>
+        
+                    <a href="#" class="logo" id="logo">
+                        <span>Daily</span>
+                        <span>Record</span>
+                    </a>
+                </div>
+                
+                <nav class="row">
+                    <ul class="nav__list row" id="nav__list">
+                        <li class="nav__item">News <img src="public/images/down-arrow-svgrepo-com.svg" class="nav__item__arrow" alt="nav item down arrow"></li>
+                        <li class="nav__item">Politics</li>
+                        <li class="nav__item">Football <img src="public/images/down-arrow-svgrepo-com.svg" class="nav__item__arrow" alt="nav item down arrow"></li>
+                        <li class="nav__item">Sport <img src="public/images/down-arrow-svgrepo-com.svg" class="nav__item__arrow" alt="nav item down arrow"></li>
+                        <li class="nav__item">TV & Celebs <img src="public/images/down-arrow-svgrepo-com.svg" class="nav__item__arrow" alt="nav item down arrow"></li>
+                        <li class="nav__item">Life & Style <img src="public/images/down-arrow-svgrepo-com.svg" class="nav__item__arrow" alt="nav item down arrow"></li>
+                        <li class="nav__item">More <img src="public/images/down-arrow-svgrepo-com.svg" class="nav__item__arrow" alt="nav item down arrow"></li>
+                    </ul>
+                    <ul class="social__list row push-right" id="social__list">
+                        <li class="social__icon"><img src="public/images/facebook_logo.svg" alt="facebook icon"></li>
+                        <li class="social__icon"><img src="public/images/instagram_logo.svg" alt="instagram icon"></li>
+                        <li class="social__icon"><img src="public/images/twitter_logo.svg" alt="twitter icon"></li>
+                    </ul>      
+                    
+                    <div class="search__icon push-right" id="search__icon">
+                        <a href="#">
+                            <img class="search__icon__img" src="./public/images/search-svgrepo-com.svg" alt="search icon">
+                        </a>
+                    </div>
+    
+                    <div class="profile__icon">
+                        <a href="#">
+                            <img src="./public/images/user-profile-svgrepo-com.svg" alt="proifle icon">
+                        </a>
+                    </div>
+                    
+                </nav>
+            </div>
+        </header>
+    
+        <div class="hidden__main__menu" id="hidden__main__menu">
+            <ul class="hidden__main__menu__top">
+                <li class="hidden__main__item">News</li>
+                <li class="hidden__main__item">Politics</li>
+                <li class="hidden__main__item">Football</li>
+                <li class="hidden__main__item">Sport</li>
+                <li class="hidden__main__item">TV & Celebs</li>
+                <li class="hidden__main__item">Life & Style</li>
+                <li class="hidden__main__item">Special Features</li>
+                <li class="hidden__main__item">Scotland Now</li>
+                <li class="hidden__main__item">In you area</li>
+                <li class="hidden__main__item">Business</li>
+                <li class="hidden__main__item">Travel</li>
+            </ul>
+            
+            <ul class="hidden__main__menu__bottom">
+                <li class="hidden__main__item">Buy a paper</li>
+                <li class="hidden__main__item">Road record</li>
+                <li class="hidden__main__item">Property</li>
+                <li class="hidden__main__item">Marketplace</li>
+                <li class="hidden__main__item">Competitions</li>
+                <li class="hidden__main__item">Horoscopes</li>
+                <li class="hidden__main__item">Deals</li>
+                <li class="hidden__main__item">Funeral notices</li>
+                <li class="hidden__main__item">Jobs</li>
+                <li class="hidden__main__item">Crosswords</li>
+                <li class="hidden__main__item">Advertise with us</li>
+                <li class="hidden__main__item">Newsletter signup</li>
+            </ul>
+    
+            <ul class="hidden__main__menu__footer">
+                <li><a href="https://www.inyourarea.co.uk/?branding=dailyrecord&amp;from_reach_footer_nav=dailyrecord"
+                        data-tmdatatrack="nav" data-tmdatatrack-name="In Your Area" data-tmdatatrack-exists="true"
+                        data-tmdatatrack-visible="true">In Your Area</a></li>
+                <li ><a href="https://www.memorylane.co.uk" data-tmdatatrack="nav" data-tmdatatrack-name="MemoryLane"
+                        data-tmdatatrack-exists="true" data-tmdatatrack-visible="true">MemoryLane</a></li>
+                <li ><a href="https://www.dailyrecord.co.uk/about-us/" data-tmdatatrack="nav" data-tmdatatrack-name="About Us"
+                        data-tmdatatrack-exists="true" data-tmdatatrack-visible="true">About Us</a></li>
+                <li><a href="https://www.dailyrecord.co.uk/contact-us/" data-tmdatatrack="nav" data-tmdatatrack-name="Contact Us"
+                        data-tmdatatrack-exists="true" data-tmdatatrack-visible="true">Contact Us</a></li>
+                <li ><a href="https://jobs.reachplc.com/jobs" data-tmdatatrack="nav" data-tmdatatrack-name="Work for us"
+                        data-tmdatatrack-exists="true" data-tmdatatrack-visible="true">Work for us</a></li>
+                <li ><a href="https://www.dailyrecord.co.uk/got-a-story/" data-tmdatatrack="nav" data-tmdatatrack-name="Got A Story?"
+                        data-tmdatatrack-exists="true" data-tmdatatrack-visible="true">Got A Story?</a></li>
+                <li><a href="https://www.dailyrecord.co.uk/news/local-news/" data-tmdatatrack="nav"
+                        data-tmdatatrack-name="Local News" data-tmdatatrack-exists="true" data-tmdatatrack-visible="true">Local
+                        News</a></li>
+                <li ><a href="https://www.dailyrecord.co.uk/cookie-policy/" data-tmdatatrack="nav"
+                        data-tmdatatrack-name="Cookie Notice" data-tmdatatrack-exists="true" data-tmdatatrack-visible="true">Cookie
+                        Notice</a></li>
+                <li ><a href="https://www.dailyrecord.co.uk/advertising/" data-tmdatatrack="nav" data-tmdatatrack-name="Advertising"
+                        data-tmdatatrack-exists="true" data-tmdatatrack-visible="true">Advertising</a></li>
+                <li><a href="https://marketplacelive.co.uk/national" data-tmdatatrack="nav" data-tmdatatrack-name="Marketplace"
+                        data-tmdatatrack-exists="true" data-tmdatatrack-visible="true">Marketplace</a></li>
+                <li ><a href="http://www.bookanad.com/#choose_region" data-tmdatatrack="nav" data-tmdatatrack-name="Book an Ad"
+                        data-tmdatatrack-exists="true" data-tmdatatrack-visible="true">Book an Ad</a></li>
+                <li><a href="https://discountcode.mirror.co.uk" data-tmdatatrack="nav" data-tmdatatrack-name="Discount Codes"
+                        data-tmdatatrack-exists="true" data-tmdatatrack-visible="true">Discount Codes</a></li>
+                <li ><a href="https://hopsmore.co.uk/" data-tmdatatrack="nav" data-tmdatatrack-name="Hopsmore Beer Club"
+                        data-tmdatatrack-exists="true" data-tmdatatrack-visible="true">Hopsmore Beer Club</a></li>
+                <li><a href="https://www.okbeautybox.co.uk/" data-tmdatatrack="nav"
+                        data-tmdatatrack-name="OK! BeautyBox Subscription" data-tmdatatrack-exists="true"
+                        data-tmdatatrack-visible="true">OK! BeautyBox Subscription</a></li>
+                <li ><a href="http://www.scotcareers.co.uk/?utm_source=tm-dailyrecord&amp;utm_medium=referral&amp;utm_campaign=footerlink"
+                        data-tmdatatrack="nav" data-tmdatatrack-name="Jobs" data-tmdatatrack-exists="true"
+                        data-tmdatatrack-visible="true">Jobs</a></li>
+                <li><a href="http://mediascotland.newsprints.co.uk/" data-tmdatatrack="nav" data-tmdatatrack-name="Buy a Photo"
+                        data-tmdatatrack-exists="true" data-tmdatatrack-visible="true">Buy a Photo</a></li>
+                <li><a href="https://www.dailyrecord.co.uk/rules/" data-tmdatatrack="nav" data-tmdatatrack-name="Competition Rules"
+                        data-tmdatatrack-exists="true" data-tmdatatrack-visible="true">Competition Rules</a></li>
+                <li><a href="https://www.dailyrecord.co.uk/how-to-complain/" data-tmdatatrack="nav"
+                        data-tmdatatrack-name="How to Complain" data-tmdatatrack-exists="true" data-tmdatatrack-visible="true">How
+                        to Complain</a></li>
+                <li><a href="https://www.dailyrecord.co.uk/corrections-clarifications/" data-tmdatatrack="nav"
+                        data-tmdatatrack-name="Corrections &amp; Clarifications" data-tmdatatrack-exists="true"
+                        data-tmdatatrack-visible="true">Corrections &amp; Clarifications</a></li>
+                <li><a href="https://www.dailyrecord.co.uk/google-survey/" data-tmdatatrack="nav"
+                        data-tmdatatrack-name="Google Survey" data-tmdatatrack-exists="true" data-tmdatatrack-visible="true">Google
+                        Survey</a></li>
+                <li><a href="https://www.dailyrecord.co.uk/privacy-notice/" data-tmdatatrack="nav"
+                        data-tmdatatrack-name="Privacy Notice" data-tmdatatrack-exists="true"
+                        data-tmdatatrack-visible="true">Privacy Notice</a></li>
+                <li><a href="https://www.dailyrecord.co.uk/authors/the-judge/let-the-judge-solve-your-consumer-problems-1275591"
+                        data-tmdatatrack="nav" data-tmdatatrack-name="Contact the Judge" data-tmdatatrack-exists="true"
+                        data-tmdatatrack-visible="true">Contact the Judge</a></li>
+                <li><a href="https://www.dailyrecord.co.uk/sunday-mail-100/" data-tmdatatrack="nav"
+                        data-tmdatatrack-name="Sunday Mail Centenary Fund" data-tmdatatrack-exists="true"
+                        data-tmdatatrack-visible="true">Sunday Mail Centenary Fund</a></li>
+                <li><a href="https://www.newspapersubs.co.uk/pg/RCS" data-tmdatatrack="nav"
+                        data-tmdatatrack-name="Paper Subscription to the Daily Record and Sunday Mail"
+                        data-tmdatatrack-exists="true" data-tmdatatrack-visible="true">Paper Subscription to the Daily Record and
+                        Sunday Mail</a></li>
+                <li><a href="https://www.dailyrecord.co.uk/subscriptionoffer" data-tmdatatrack="nav"
+                        data-tmdatatrack-name="Paper Subscription to the Paisley Daily Express" data-tmdatatrack-exists="true"
+                        data-tmdatatrack-visible="true">Paper Subscription to the Paisley Daily Express</a></li>
+                <li><a href="https://www.dailyrecord.co.uk/newsletter-preference-centre/" data-tmdatatrack="nav"
+                        data-tmdatatrack-name="Newsletters Signup" data-tmdatatrack-exists="true"
+                        data-tmdatatrack-visible="true">Newsletters Signup</a></li>
+                <li><a href="https://www.mirrorpix.com" data-tmdatatrack="nav" data-tmdatatrack-name="Syndication &amp; Licensing"
+                        data-tmdatatrack-exists="true" data-tmdatatrack-visible="true">Syndication &amp; Licensing</a></li>
+                <li><a href="https://www.dailyrecord.co.uk/terms-conditions/" data-tmdatatrack="nav"
+                        data-tmdatatrack-name="Terms and Conditions" data-tmdatatrack-exists="true"
+                        data-tmdatatrack-visible="true">Terms and Conditions</a></li>
+                <li><a href="https://www.dailyrecord.co.uk/notifications-help/" data-tmdatatrack="nav"
+                        data-tmdatatrack-name="Notifications and alerts help" data-tmdatatrack-exists="true"
+                        data-tmdatatrack-visible="true">Notifications and alerts help</a></li>
+                <li><a href="https://www.dailyrecord.co.uk/" data-tmdatatrack="nav"
+                        data-tmdatatrack-name="© 2022 Scottish Daily Record and Sunday Mail Ltd" data-tmdatatrack-exists="true"
+                        data-tmdatatrack-visible="true">© 2022 Scottish Daily Record and Sunday Mail Ltd</a></li>
+    
+            </ul>
+        </div>
+    
+        <div class="subheader" id="subheader">
+            <ul class="desktop__subheader row">
+                <li class="nav__item">Buy a paper</li>
+                <li class="nav__item">Road record</li>
+                <li class="nav__item">Property</li>
+                <li class="nav__item">Marketplace</li>
+                <li class="nav__item">Competitions</li>
+                <li class="nav__item">Horoscopes</li>
+                <li class="nav__item">Deals</li>
+                <li class="nav__item">Funeral notices</li>
+                <li class="nav__item">Jobs</li>
+                <li class="nav__item">Crosswords</li>
+                <li class="nav__item">Advertise with us</li>
+                <li class="nav__item">Newsletter signup</li>
+            </ul>
+            
+            <ul class="mobile__subheader row">
+                <li class="nav__item">News</li>
+                <li class="nav__item">Politics</li>
+                <li class="nav__item">Football</li>
+                <li class="nav__item">Sport</li>
+                <li class="nav__item">TV & Celebs</li>
+                <li class="nav__item">Life & Style</li>
+                <li class="nav__item">Special Features</li>
+                <li class="nav__item">Scotland Now</li>
+                <li class="nav__item">In you area</li>
+                <li class="nav__item">Business</li>
+                <li class="nav__item">Travel</li>
+            </ul>
+        </div>
+    
+        <div class="container">
+            <section class="hero" id="hero">
+                <img src="public/images/hero_img.jpg" alt="portrait of girl with orange hat with sky background" class="hero__img">
+                <div class="hero__text">
+                    <h1 class="hero__text__header">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, reprehenderit. Vitae voluptas corrupti deleniti officiis?
+                    </h1>
+                    <h2 class="hero__text__subheader">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti qui earum dignissimos provident ab aut asperiores reprehenderit in obcaecati accusamus.
+                    </h2>
+                </div>
+            </section>
+            
+            <section class="articles">
+                <article class="row">
+                    <div class="article__img">
+                        <img src="public/images/jimmy-jin-dVenXNkyJTA-unsplash.jpg" alt="asian town street with neon lights">
+                    </div>
+                    <div class="article__text col">
+                        <h2 class="article__title">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus eveniet odio delectus laborum!
+                        </h2>
+                        <div class="article__footer row">
+                            <h3 class="article__label">Edinburgh</h3>
+                            <img src="public/images/comments-svgrepo-com.svg" alt="orange mini car in front of kfc drive in">
+                        </div>
+                    </div>
+                </article>
+                <article class="row">
+                    <div class="article__img">
+                        <img src="public/images/dave-yap-OyrJ-hTk3hI-unsplash.jpg" alt="white sport car in front of gray house">
+                    </div>
+                    <div class="article__text col">
+                        <h2 class="article__title">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, veniam fugit at animi corporis deserunt.
+                        </h2>
+                        <div class="article__footer row">
+                            <h3 class="article__label">Edinburgh</h3>
+                            <img src="public/images/comments-svgrepo-com.svg" alt="woman with a baby and an umbrella under columns">
+                        </div>
+                    </div>
+                </article>
+                <article class="row">
+                    <div class="article__img">
+                        <img src="public/images/kayle-kaupanger-AKvzJF_1x2U-unsplash.jpg" alt="">
+                    </div>
+                    <div class="article__text col">
+                        <h2 class="article__title">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, exercitationem.
+                        </h2>
+                        <div class="article__footer row">
+                            <h3 class="article__label">Edinburgh</h3>
+                            <img src="public/images/comments-svgrepo-com.svg" alt="">
+                        </div>
+                    </div>
+                </article>
+                <article class="row">
+                    <div class="article__img">
+                        <img src="public/images/san-htun-DEYsVK8qcRs-unsplash.jpg" alt="">
+                    </div>
+                    <div class="article__text col">
+                        <h2 class="article__title">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis neque est cumque!
+                        </h2>
+                        <div class="article__footer row">
+                            <h3 class="article__label">Edinburgh</h3>
+                            <img src="public/images/comments-svgrepo-com.svg" alt="">
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </div>
+    </div>
+        
+        
+        
+        <script type="text/javascript" src="/scripts/ham_menu.js"></script>
+    </body>
+    </html>
