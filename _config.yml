@@ -1,4 +1,20 @@
-title: Niccolò Zanieri
-logo: vizcacha.png
-#description: text below image
+# Basic Site Settings
+locale                   : "en-US"
+title                    : "Niccolò Zanieri | Scientist"
+title_separator          : "-"
+name                     : &name "Niccolò Zanieri"
+description              : &description "personal description"
+url                      : https://zanieri.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
+
+author:
+  avatar : "vizcacha.png"
+  name: "Niccolò Zanieri"
+  bio: "A very intersting story, I swear"
+  location: "Sophia Antipolis, France"
+  email: "niccolo.zanieri.13@gmail.com"
+
+  github: "niccolozanieri
+
+
 theme: jekyll-theme-minimal
